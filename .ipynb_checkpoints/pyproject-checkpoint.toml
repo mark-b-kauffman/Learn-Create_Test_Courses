@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "learn-create-test-courses"
+version = "0.1.0"
+description = ""
+authors = ["mark-b-kauffman <mark.kauffman@blackboard.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+datetime3 = "^3.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
