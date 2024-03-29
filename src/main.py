@@ -96,9 +96,13 @@ sys.meta_path.append(NotebookFinder())
 
 import create_courses
 
-def main(n):
-    print(f'n is: {n}')
+def create_them(n):
+    print(f'n is: {n} creating courses')
     create_courses.main(n)
+
+def delete_them(n):
+    print(f'n is: {n} deleteing courses')
+    delete_courses.main(n)
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
@@ -106,4 +110,4 @@ if __name__ == "__main__":
         sys.exit(1)
     
     n = int(sys.argv[1])
-    main(n)
+    create_them(n)

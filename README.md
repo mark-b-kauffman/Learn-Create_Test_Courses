@@ -50,7 +50,7 @@ We have also provided a convenience mechanism to delete the courses that you cre
     * Did you delete courses if you've already created them?
 
 ### Other Useful Things
-* For convenience a main.py script has been provided that can be used to run the create_courses code.
+* For convenience a main.py script has been provided that can be used to run the create_courses and delete_courses code.
     * cd Learn-Create_Test_Courses
     * python main.py <n>
       * Where n is the number of courses to create.
