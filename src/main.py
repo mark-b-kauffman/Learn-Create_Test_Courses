@@ -95,19 +95,24 @@ class NotebookFinder(object):
 sys.meta_path.append(NotebookFinder())
 
 import create_courses
+import delete_courses
 
 def create_them(n):
-    print(f'n is: {n} creating courses')
     create_courses.main(n)
 
 def delete_them(n):
-    print(f'n is: {n} deleteing courses')
     delete_courses.main(n)
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python main.py <number_of_courses>")
+    if len(sys.argv) != 3:
+        print("Usage: python main.py create|delete <number_of_courses>")
         sys.exit(1)
     
-    n = int(sys.argv[1])
-    create_them(n)
+    action = sys.argv[1]
+    n  = int(sys.argv[2])
+    if action == "create":
+        create_them(n)
+    elif action == "delete":
+        delete_them(n)
+    else:
+        print(f"You must choose either create or delete for the first argument.")
