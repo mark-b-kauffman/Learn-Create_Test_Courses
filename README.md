@@ -4,6 +4,8 @@ This code will create some number of test courses on a Blackboard Learn system a
 
 We have also provided a convenience mechanism to delete the courses that you create. This is because you cannot run the code to create courses if the courses already exist on the Learn system.
 
+This code is subject to the terms given in the LICENSE.md file included with this project.
+
 ### Prerequisites:
 * OS: MacOSX 14^ (Windows will require the Windows port of pyenv for Windows.) We explain how to install the following prerequisites in the Installation section below.
 * Python version management: pyenv
