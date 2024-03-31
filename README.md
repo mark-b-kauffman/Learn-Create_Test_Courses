@@ -11,7 +11,10 @@ This code is subject to the terms given in the LICENSE.md file included with thi
 * Python version management: pyenv
 * Python environment managment: pipx
 * Python package management: Poetry
-* A Learn server on which you have created the ATESTDSK
+* A REST Application registered on developer.anthology.com
+* The REST Application is deployed to a Learn server
+* The same Learn server has a datasource key you've created, named ATESTDSK
+
 
 ### Installation:
 * Use Git to clone this project to your local machine.
