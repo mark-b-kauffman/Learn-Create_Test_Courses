@@ -25,7 +25,7 @@ import time
 import requests
 from requests import HTTPError
 
-class Authorization():
+class Authenticator():
 
     # Initializes the auth helper by taking the target system url,
     # PI key and secret as arguments.
@@ -73,8 +73,8 @@ class Authorization():
                 self.now = datetime.datetime.now()
                 self.expires_at = self.now + \
                     datetime.timedelta(seconds=s, minutes=m)
-                print(f"Learn Authentication successful")
-                print("Token expires at: " + str(self.expires_at))
+                print(f"learn_auth(): Learn Authentication successful")
+                print("learn_auth(): Token expires at: " + str(self.expires_at))
                 return self.learn_token
 
             elif self.token_is_expired(self.expires_at):

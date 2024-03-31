@@ -1,8 +1,8 @@
 ### Project Title: Learn-Create_Test_Courses
 ### Description:
-This code will create some number of test courses on a Blackboard Learn system and time how long it takes to complete the process. It will show that time and the average time taken per course when complete. NOTE: You MUST have created a data source key (DSK) on the Learn system you run this code against that has an external ID of: ATESTDSK
+They create_courses notebook will create some number of test courses on a Blackboard Learn system and time how long it takes to complete the process. It will show that time and the average time taken per course when complete. NOTE: You MUST have created a data source key (DSK) on the Learn system you run this code against that has an external ID of: ATESTDSK
 
-We have also provided a convenience mechanism to delete the courses that you create. This is because you cannot run the code to create courses if the courses already exist on the Learn system.
+We have also provided a delete_courses notebook to delete the courses that you create. This is because you cannot run the code to create courses if the courses already exist on the Learn system.
 
 This code is subject to the terms given in the LICENSE.md file included with this project.
 
@@ -54,7 +54,7 @@ This code is subject to the terms given in the LICENSE.md file included with thi
 ### Other Useful Things
 * For convenience a main.py script has been provided that can be used to run the create_courses and delete_courses code.
     * cd Learn-Create_Test_Courses
-    * python main.py <n>
-      * Where n is the number of courses to create.
+    * python main.py create|delete \<n\>
+      * Where n is the number of courses to create or delete.
 
 
