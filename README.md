@@ -45,7 +45,7 @@ This code is subject to the terms given in the LICENSE.md file included with thi
 ### Usage (Launching the project):
 * poetry run jupyter lab
 * Open the src folder.
-* Edit Config.py and set the values specific to your REST application and Learn server.
+* Copy Config_template.py to Config.py and in Config.py set the values specific to your REST application and Learn server.
 * Access and run the Python code notebooks in the src/ folder.
 * NOTE: Several things to check if you get errors:
     * Did you set up your Config.py with the necessary values?
