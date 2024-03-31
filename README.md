@@ -29,18 +29,18 @@ This code is subject to the terms given in the LICENSE.md file included with thi
     * python3 -m pipx ensurepath
 * Install Poetry
     * pipx install poetry
-* Initialize Poetry in the current directory.
-    * poetry init
 * Add the necessary Python libraries using Poetry
     * poetry add requests@latest
     * poetry add ipython@latest
     * poetry add nbformat
 * Install Jupyter Lab
     * poetry add --dev jupyterlab
+* Install ngrok or some other proxy to make the Flask server available on the public internet.
+    * For ngrok see: https://ngrok.com/docs/getting-started/
+        * (We purchased our own domain for this demo... And we need to run on a system that isn't blocked by any firewall rules...)
 
 ### Usage (Launching the project):
 * poetry run jupyter lab
-    * NOTE: This will take a few minutest the first time. Wait! 
 * Open the src folder.
 * Edit Config.py and set the values specific to your REST application and Learn server.
 * Access and run the Python code notebooks in the src/ folder.
