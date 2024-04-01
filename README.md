@@ -53,6 +53,7 @@ This code is subject to the terms given in the LICENSE.md file included with thi
     * Did you delete courses if you've already created them?
 
 ### Other Useful Things
+*WORK IN PROGRESS - main.py is a work in progress. Use the create_courses and delete_courses notebooks directly.
 * For convenience a main.py script has been provided that can be used to run the create_courses and delete_courses code.
     * cd Learn-Create_Test_Courses
     * python main.py create|delete \<n\>
