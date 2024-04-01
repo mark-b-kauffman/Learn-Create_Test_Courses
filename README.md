@@ -32,6 +32,10 @@ This code is subject to the terms given in the LICENSE.md file included with thi
     * python3 -m pipx ensurepath
 * Install Poetry
     * pipx install poetry
+* Initialize Poetry in the Learn-Create_Test_Courses
+    * Make sure you are in the Learn-Create_Test_Courses directory
+    * poetry init
+    * Press the Enter key to accept all the default prompts
 * Add the necessary Python libraries using Poetry
     * poetry add requests@latest
     * poetry add ipython@latest
