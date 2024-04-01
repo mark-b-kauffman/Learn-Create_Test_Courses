@@ -38,9 +38,6 @@ This code is subject to the terms given in the LICENSE.md file included with thi
     * poetry add nbformat
 * Install Jupyter Lab
     * poetry add --dev jupyterlab
-* Install ngrok or some other proxy to make the Flask server available on the public internet.
-    * For ngrok see: https://ngrok.com/docs/getting-started/
-        * (We purchased our own domain for this demo... And we need to run on a system that isn't blocked by any firewall rules...)
 
 ### Usage (Launching the project):
 * poetry run jupyter lab
